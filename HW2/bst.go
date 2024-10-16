@@ -97,11 +97,11 @@ func main() {
 	root.add_element(1)
 	root.add_element(19)
 	root.add_element(2)
-	root.add_element(21)
+	root.add_element(24)
 	root.add_element(17)
 	fmt.Println(root)
 	fmt.Println(root.l_son.val, root.r_son.val, root.r_son.r_son.val)
 	fmt.Println(root.Isexist(1))
-	root.remove(21)
+	root.remove(24)
 	fmt.Print(root.r_son.val)
 }
